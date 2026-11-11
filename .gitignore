@@ -1,0 +1,30 @@
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Archivos compilados
+**/bin/
+**/obj/
+**/TestResults/
+
+# Archivos temporales
+*.log
+*.cache
+.DS_Store
+Thumbs.db
+
+# Bases de datos locales
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Configuración privada
+**/appsettings.Development.json
+**/secrets.json
+
+# Archivos generados
+artifacts/
+packages/
